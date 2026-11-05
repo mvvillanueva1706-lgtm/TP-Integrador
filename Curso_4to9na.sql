@@ -32,7 +32,7 @@ INSERT INTO Alumno (nombreCompleto) VALUES
 ('Daza Aylen'),
 ('Di Domenico Tiziano'),
 ('Gaitan Bautista'),
-('Herrera Tomas')
+('Herrera Tomas'),
 ('Jara Lucia'),
 ('Kremer Julian'),
 ('Loyola Bautista'),
