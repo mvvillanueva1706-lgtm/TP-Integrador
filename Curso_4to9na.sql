@@ -8,7 +8,8 @@ nombreCompleto VARCHAR(50)
 
 CREATE TABLE Materia (
 id_materia INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-nombreMateria VARCHAR(50)
+nombreMateria VARCHAR(50),
+nombreProfesor VARCHAR(50)
 );
 
 CREATE TABLE Alumno_Materia (
@@ -19,7 +20,9 @@ FOREIGN KEY (id_alumno) REFERENCES Alumno(id_alumno),
 FOREIGN KEY (id_materia) REFERENCES Materia(id_materia)
 );
 
-INSERT INTO Materia (nombreMateria) VALUES ('Sistemas'), ('Redes');
+INSERT INTO Materia (nombreMateria, nombreProfesor) VALUES 
+('Sistemas', 'Domingo Britos'), 
+('Redes', 'Domingo Britos');
 INSERT INTO Alumno (nombreCompleto) VALUES 
 ('Alaniz Bautista'),
 ('Alba Lautaro'), 
