@@ -23,6 +23,7 @@ FOREIGN KEY (id_materia) REFERENCES Materia(id_materia)
 INSERT INTO Materia (nombreMateria, nombreProfesor) VALUES 
 ('Sistemas', 'Domingo Britos'), 
 ('Redes', 'Domingo Britos');
+
 INSERT INTO Alumno (nombreCompleto) VALUES 
 ('Alaniz Bautista'),
 ('Alba Lautaro'), 
